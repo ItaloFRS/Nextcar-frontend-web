@@ -22,11 +22,12 @@ Este repositório contém o código do frontend e foi desenvolvido com foco em:
 ## 🧱 Tecnologias Utilizadas
 
 | Tecnologia | Descrição |
-
-React: Biblioteca para construção de interfaces de usuário.
-Vite: Ferramenta de build e desenvolvimento.
-TypeScript: Superset do JavaScript que adiciona tipagem estática.
-CSS: Para estilização dos componentes.
+|------------|-----------|
+| **React** | Biblioteca para construção de interfaces de usuário. |
+| **TypeScript** | Superset de JavaScript com tipagem estática |
+| **Vite** | Ferramenta de build e desenvolvimento. |
+| **CSS** | Para estilização dos componentes. |
+| **Vercel** | Plataforma de deployment e hospedagem moderna |
 
 ---
 
