@@ -39,17 +39,17 @@ const navigation = useNavigate();
       <div className="btn-modelos">
         <CardCarro 
             nome="Muscle Cars" 
-            imagem="public\Cards\Mustang.png" 
+            imagem="/Cards/Mustang.png" 
             icone={<GiMuscleUp color="red" />} />
 
         <CardCarro 
             nome="JDM" 
-            imagem="public\Cards\R34.png" 
+            imagem="/Cards/R34.png" 
             icone={<GiJapan color="red" />} />
 
         <CardCarro 
             nome="Eletricos" 
-            imagem="public\Cards\seal.png" 
+            imagem="/Cards/seal.png" 
             icone={<FaBolt color="red" />} />  
       </div>
     </section>
@@ -62,7 +62,7 @@ const navigation = useNavigate();
       <div className="cont-destaque-semanal">
         
         <div className="img-destaque-semanal">
-          <img src="public\Cards\prelude.png" alt="" />
+          <img src="/Cards/prelude.png" alt="" />
         </div>
 
         <div className="txt-destaque-semanal">
@@ -72,7 +72,7 @@ const navigation = useNavigate();
             <span> Um dos grandes destaques apresentados durante no Salão do Automóvel deste ano, o Honda Prelude roubou a cena no palco da montadora japonesa. Só se falava dele. E até o principal novo produto da marca, o WR-V, acabou tendo que disputar as atenções.</span>
           </div>
           <div className="overlay"></div>
-          <img src="public\Cards\prelude-int.png" alt="" />
+          <img src="/Cards/prelude-int.png" alt="" />
           
         </div>
 
@@ -87,17 +87,17 @@ const navigation = useNavigate();
       <div className="btn-modelos">
         <CardCarro 
             nome="RAM 1500 - 2021" 
-            imagem="public\Cards\RAM-1500.png" 
+            imagem="/Cards/RAM-1500.png" 
             icone={<FaCheck color="red" />} />
 
         <CardCarro 
             nome="Civic Type R - 2024" 
-            imagem="public\Cards\TypeR.png" 
+            imagem="/Cards/TypeR.png" 
             icone={<FaCheck color="red" />} />
 
         <CardCarro 
             nome="BYD Dolphin Mini - 2023" 
-            imagem="public\Cards\Dol-Mini.png" 
+            imagem="/Cards/Dol-Mini.png" 
             icone={<FaCheck color="red" />} />  
       </div>
     </section>
