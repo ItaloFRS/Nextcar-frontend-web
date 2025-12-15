@@ -1,7 +1,7 @@
 # 🏎️ NextCar — Frontend Web
 
 <p align="center">
-  <img src="src/assets/Logo-Dark.png" alt="Logo-Dark-Mobile.png" width="200" />
+  <img src="/Logo-Dark.png" alt="Logo-Dark-Mobile.png" width="200" />
 </p>
 
 Projeto Frontend Web da aplicação **NextCar**, desenvolvido com **React + TypeScript + Vite** e pronto para ser integrado a um backend (API) e mobile.  
@@ -46,8 +46,6 @@ git clone https://github.com/ItaloFRS/Nextcar-frontend-web.git
 ---
 
 ## 👨‍💻 Autor
-
-Este projeto foi desenvolvido com dedicação pelas seguintes pessoas:
 
 ✨ Italo Farias
 
