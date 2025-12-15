@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import '../CSS/Auth.css'
 import '../CSS/SingUp.css'
+import { API_URL } from "../service/config.ts";
 
 export const SignUp = () => {
   const navigation = useNavigate();
@@ -23,7 +24,7 @@ export const SignUp = () => {
 
     try {
       // 2. Chamada para a API (Endpoint /auth/register)
-      const response = await fetch("http://localhost:8080/auth/register", {
+      const response = await fetch(`${API_URL}/auth/register`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

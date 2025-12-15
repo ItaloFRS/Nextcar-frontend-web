@@ -5,6 +5,7 @@ import Footer from "../Components/Footer";
 import Procura from "../Components/Procura";
 import NavBar from "../Components/NavBar";
 import CardEstoque from "../Components/CardEstoque";
+import { API_URL } from "../service/config";
 
 // Definição do tipo de dado que vem do Java
 interface CarroData {
@@ -31,7 +32,7 @@ export const Estoque = () => {
   useEffect(() => {
     const fetchCarros = async () => {
       try {
-        const response = await fetch("http://localhost:8080/carros");
+        const response = await fetch(`${API_URL}/carros`);
         if (response.ok) {
           const data = await response.json();
           setCarros(data);

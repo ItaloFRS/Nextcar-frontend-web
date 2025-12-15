@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
 import '../CSS/Anuncie.css';
+import { API_URL } from '../service/config';
 
 const Anuncie = () => {
   const navigate = useNavigate();
@@ -110,7 +111,7 @@ const Anuncie = () => {
     };
 
     try {
-      const response = await fetch('http://localhost:8080/carros', {
+      const response = await fetch(`${API_URL}/carros`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
