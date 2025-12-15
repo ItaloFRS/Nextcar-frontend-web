@@ -41,3 +41,20 @@ Clone o projeto:
 
 ```bash
 git clone https://github.com/ItaloFRS/Nextcar-frontend-web.git
+```
+
+---
+
+👨‍💻 Autores
+
+Este projeto foi desenvolvido com dedicação pelas seguintes pessoas:
+
+✨ Italo Farias
+
+- 💼 Desenvolvedor Full Stack
+
+- 🌎 Campina Grande – PB, Brasil
+
+- 🐙 GitHub: @ItaloFRS
+
+- 💡 Responsável pela arquitetura, desenvolvimento e manutenção do projeto
