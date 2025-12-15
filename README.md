@@ -45,7 +45,7 @@ git clone https://github.com/ItaloFRS/Nextcar-frontend-web.git
 
 ---
 
-##👨‍💻 Autor
+## 👨‍💻 Autor
 
 Este projeto foi desenvolvido com dedicação pelas seguintes pessoas:
 
