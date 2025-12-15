@@ -1,5 +1,9 @@
 # 🏎️ NextCar — Frontend Web
 
+<p align="center">
+  <img src="src/assets/Logo-Dark.png" alt="Logo-Dark-Mobile.png" width="200" />
+</p>
+
 Projeto Frontend Web da aplicação **NextCar**, desenvolvido com **React + TypeScript + Vite** e pronto para ser integrado a um backend (API) e mobile.  
 O site está implantado no **Vercel** e demonstra as páginas e funcionalidades do frontend.  
 
