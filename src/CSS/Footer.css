@@ -1,0 +1,88 @@
+.footer{
+
+    background: rgba(0, 0, 0, 0.152);
+    box-shadow: 10px 0px 32px 10px rgba(0, 0, 0, 0.512);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.192);
+
+    width: 100vw;
+    bottom: 0;
+    padding: 2.5%;
+    padding-bottom: 1%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: small;
+
+    & .footer-cont{
+        
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        & .footer-social{
+
+            width:20%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            & img{
+                width: 50%;
+                
+            }
+
+            & .footer-icons{
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+                gap: 15px;
+                font-size: 24px;
+
+            }
+        }
+
+        & .footer-contato{
+            width: 20%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        & .footer-inscreva-se{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            & form{
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                gap: 10px;
+
+                & input{
+                    padding: 10px;
+                    border-radius: 5px;
+                    color: var(--cor-secundaria);
+                    border: none;
+                }
+
+                & button:hover{
+                    color: var(--cor-secundaria);
+                }
+            }
+        }
+    }
+
+    & .Copyright{
+        margin-top: 10px;
+        font-weight: 900;
+    }
+}

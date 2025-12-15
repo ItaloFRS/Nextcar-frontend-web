@@ -1,0 +1,38 @@
+.procurar{
+    width: 80%;
+    margin: 6% auto;
+
+    & h2{
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 2.4rem;
+        margin-bottom: 1rem;
+        
+    }
+
+    & form{
+        margin-top: 2rem;
+
+        display: flex;
+        align-items: center;
+        padding: 4rem;
+        gap: 1rem;
+        border: 1px solid var(--cor-destaque);
+        border-radius: 25px;
+
+        & input{
+            flex: 1;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--cor-fonte);
+            color: var(--cor-secundaria);
+            background-color: var(--cor-fonte);
+        }
+
+        & .button{
+            margin-left: 1rem;
+            padding: 1.5rem;
+        }
+
+    }
+}

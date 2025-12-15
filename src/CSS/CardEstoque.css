@@ -1,0 +1,96 @@
+/* CARD PRINCIPAL */
+.card-carro-estoque {
+
+    width: 100%;
+    max-width: 80%;
+
+    background: rgba(42, 42, 42, 0.152);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.512);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 26px;
+    border: 1px solid var(--cor-destaque); 
+    padding: 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+    text-align: left;
+}
+
+.card-carro-estoque:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+}
+
+/* IMAGEM DO VEÍCULO */
+.card-img-wrapper {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  margin-bottom: 2%;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TÍTULO E SUBTÍTULO */
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-titulo {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--cor-destaque);
+}
+
+.card-sub {
+  font-size: 14px;
+  color: var(--cor-fonte);
+}
+
+/* PREÇO */
+.card-preco {
+  margin-top: 10px;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.preco-prefixo {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--cor-fonte-2);
+}
+
+.preco-valor {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--cor-destaque);
+}
+
+/* ÍCONE DA SETA (CANTO INFERIOR DIREITO) */
+.card-arrow {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  font-size: 28px;
+  color: #0f172a;
+  opacity: 0.4;
+  transition: 0.2s;
+}
+
+.card-carro:hover .card-arrow {
+  opacity: 0.8;
+  transform: translateX(4px);
+}

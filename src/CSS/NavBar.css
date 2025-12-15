@@ -1,0 +1,238 @@
+
+.nav{
+  z-index: 2;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  left: 0;
+  top: 0;
+  
+}
+
+.nav-bar{
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  border: hidden;
+  border-color: transparent;
+  border-radius: 0;  
+  transition: 0.7s;
+  
+  
+}
+.brand img{
+  width: 150px;
+}
+
+.brand{
+  & .logo-mobile{
+    display: none;
+  }
+}
+
+.nav-bar.scrolled {
+  
+  background: rgba(0, 0, 0, 0.152);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.512);
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.192);
+  
+}
+
+
+.options{
+    display: flex;
+    gap: 10%;
+
+    button{
+      background-color: transparent;
+      border: none;
+      transition: all 300ms;
+      cursor: pointer;
+
+    }
+
+    button:hover {
+      color: var(--cor-destaque);
+      transform: scale(1.2);
+      font-weight: bold;
+  }
+}
+
+.botoes{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.b1{
+  width: 40px;
+  height: 40px;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.152);
+  border-radius: 50%;
+  border: 2px solid var(--cor-secundaria);
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+.b1:hover {
+  color: var(--cor-destaque);
+  transform: scale(1.2);
+  font-weight: bold;
+}
+
+
+@media (max-width: 650px) {
+  .brand .logo-web {
+    display: none;
+  }
+  .brand .logo-mobile {
+    display: block;
+  }
+}
+
+/* Container para posicionar o menu relativo ao botão */
+.user-menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* O botão do avatar */
+
+.avatar-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+/* O Menu Suspenso */
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Logo abaixo do botão */
+  right: 0;  /* Alinhado à direita */
+  background-color: rgba(30, 30, 30, 0);
+  min-width: 10%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 0;
+  padding: 8px 0;
+  z-index: 1000;
+  overflow: hidden;
+  
+}
+
+/* Botão dentro do menu (Sair) */
+
+.logout-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: rgb(255, 65, 65);
+}
+
+/* plus sign */
+.sign {
+  width: 100%;
+  transition-duration: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign svg {
+  width: 17px;
+}
+
+.sign svg path {
+  fill: white;
+}
+/* text */
+.text {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition-duration: .3s;
+}
+/* hover effect on button width */
+.logout-btn:hover {
+  width: 125px;
+  border-radius: 40px;
+  transition-duration: .3s;
+}
+
+.logout-btn:hover .sign {
+  width: 30%;
+  transition-duration: .3s;
+  padding-left: 20px;
+}
+/* hover effect button's text */
+.logout-btn:hover .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: .3s;
+  padding-right: 10px;
+}
+/* button click effect*/
+.logout-btn:active {
+  transform: translate(2px ,2px);
+}
+
+
+/* Estilos para os botões de Login/SignUp */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-login, .btn-signup {
+  /* Adapte ao seu design system */
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-login {
+  background: transparent;
+  border: none;
+  transition: 500ms;
+}
+
+.btn-login:hover {
+  transform: scale(1.08);
+}
+
+.btn-signup {
+  background-color: #007bff; /* Exemplo de cor */
+  color: white;
+  border: none;
+}
+

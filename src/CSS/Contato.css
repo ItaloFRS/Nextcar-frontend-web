@@ -1,0 +1,44 @@
+.sec-contato{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    
+    gap: 10%;
+    margin-top: 8%;
+
+    & .contato-info{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 40%;
+        gap: 20px;
+
+        & h2{
+            font-size: 2.5rem;
+        }
+
+        .button{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+            padding: 5%;
+
+        }   & .icon-btn{
+                font-size: 1.5rem;
+            }
+    }
+
+    & .contato-img{
+        transform: translateX(10%);
+        width: 50%;
+    }
+}

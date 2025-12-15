@@ -1,0 +1,55 @@
+/* CONTAINER DOS CARDS */
+
+.estoque-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 7%;
+
+}
+
+.estoque {
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 32px;
+  padding: 40px;
+}
+
+/* PAGINAÇÃO */
+
+.paginacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+  margin: 2% 0;
+}
+
+.paginacao button {
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  color: #262626;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.paginacao button:hover:not(:disabled) {
+  background: #e2e8f0;
+}
+
+.paginacao button.ativo {
+  background: #262626;
+  color: white;
+}
+
+.paginacao button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
