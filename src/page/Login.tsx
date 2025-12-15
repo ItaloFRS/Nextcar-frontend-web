@@ -72,7 +72,7 @@ export default function Login() {
           <div className="video-container">
             <div className="overlay-l"></div>
             <video autoPlay muted loop playsInline className="video-bg" id="myVideo">
-              <source src="/src/assets/Auth_.mp4" type="video/mp4" />
+              <source src="/Auth_.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

@@ -41,8 +41,8 @@ const NavBar: React.FC = () => {
       <div className="nav">
         <nav id="nav-bar" className={`nav-bar ${scrolled ? "scrolled" : ""}`}>
           <div className="brand">
-            <img className="logo-web" src="src\assets\Logo-Dark.png" alt="" />
-            <img className="logo-mobile" src="src\assets\Logo-Dark-Mobile.png" alt="" />
+            <img className="logo-web" src="/Logo-Dark.png" alt="" />
+            <img className="logo-mobile" src="/Logo-Dark-Mobile.png" alt="" />
           </div>
 
           <div className="options">

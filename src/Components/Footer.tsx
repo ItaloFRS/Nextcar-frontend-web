@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-cont">
 
             <div className="footer-social">
-                <img src="src\assets\Logo-Dark.png" alt="Logo da NextCar" />
+                <img src="/Logo-Dark.png" alt="Logo da NextCar" />
                 <h3>Qualidade, Segurança, Transparência.</h3>
                 <div className="footer-icons">
                     <a href=""><AiFillInstagram /></a>

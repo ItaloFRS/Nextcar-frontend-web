@@ -28,7 +28,7 @@ const Contato = () => {
           </div>
 
           <div className="contato-img">
-            <img src="/BMW M2.SVG" alt="" />
+            <img src="/BMW M2.svg" alt="" />
           </div>
         </section>
 
